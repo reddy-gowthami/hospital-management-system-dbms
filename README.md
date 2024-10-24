@@ -1,15 +1,26 @@
 ER-diagram
+
 ![image](https://github.com/user-attachments/assets/da8ecf5b-de9c-43e0-9f7a-af38fa8596ec)
-
-
 
 #List of Tables
 PATIENT:
+
+
 ![image](https://github.com/user-attachments/assets/88ef0bae-cf84-4d4f-b7f5-d986fe241b19)
-create table Patient(
-p_id int primary key, name varchar (20) not null, age int not null, gender varchar(20) not null, address varchar (200) not null, phone _no int not null, disease varchar (20) not null, doctor_id int not null);
+
+
+
+
+
+create table Patient
+(p_id int primary key, name varchar (20) not null, age int not null, gender varchar(20) not null, address varchar (200) not null, phone _no int not null, disease varchar (20) not null, doctor_id int not null);
+
 insert into patient values
-(1, "Ram", 20, "Male", "Trirupati-Balajicolony", "6304647948", "fever", 11), (2, "Jai",30, "Male", "Guntur-Bcolony", "9146567889", "heart disease", 12), (3, "Balaji",35, "Male", "Vijayawada-krishnalanka", "9191919119", "lung cancer", 13), (4, "Sree",25, "Female", "Podhili-policecolony", "5456778898", "pmeumonia", 14), (5, "Anjani",15, "Female", "Ongole-scolony", "5467788990", "fever", 15);
+(1, "Ram", 20, "Male", "Trirupati-Balajicolony", "6304647948", "fever", 11), 
+(2, "Jai",30, "Male", "Guntur-Bcolony", "9146567889", "heart disease", 12), 
+(3, "Balaji",35, "Male", "Vijayawada-krishnalanka", "9191919119", "lung cancer", 13), 
+(4, "Sree",25, "Female", "Podhili-policecolony", "5456778898", "pmeumonia", 14), 
+(5, "Anjani",15, "Female", "Ongole-scolony", "5467788990", "fever", 15);
 
 DOCTOR:
 ![image](https://github.com/user-attachments/assets/3199085f-04bc-4065-834a-7d1195997c29)
