@@ -1,4 +1,4 @@
-List of Tables
+#List of Tables
 PATIENT:
 ![image](https://github.com/user-attachments/assets/88ef0bae-cf84-4d4f-b7f5-d986fe241b19)
 create table Patient(
