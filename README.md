@@ -1,3 +1,8 @@
+ER-diagram
+![image](https://github.com/user-attachments/assets/da8ecf5b-de9c-43e0-9f7a-af38fa8596ec)
+
+
+
 #List of Tables
 PATIENT:
 ![image](https://github.com/user-attachments/assets/88ef0bae-cf84-4d4f-b7f5-d986fe241b19)
